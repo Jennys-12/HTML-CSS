@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS Example with Sidebar</title>
+    <style type="text/css">
+
+        body {
+           
+            font-size:20px;
+            font-weight: bolder;
+            padding: auto;
+            background-color:violet  ;
+        }
+
+        header img{
+            display: block;
+            margin: 20px auto;
+            width: 150px;
+            border-radius: 50%;
+        }
+        .logo {
+            float: right;
+            margin-right: 1rem;
+        }
+        
+        h1{
+            text-align: center;
+            border-radius: 10px;
+            border: 10px solid;
+            font-size: 30px;
+        }
+    
+        .sidebar ul{
+            line-height: 1.5em;
+            border-radius: 5px;
+            padding: auto;
+            margin: auto;
+            border: 5px solid;
+            width: 300px;
+        }
+        .container{
+            display: flex;
+        }
+        section h2{
+            margin:10px;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        section p{
+            margin: 10px;
+            font-size: 20px;
+        }
+        footer{
+            padding: 4px;
+            text-align: center;
+            line-height: 1.4em;
+            border: 10px solid;
+        }
+</style>
+
+    
+</head>
+ 
+<body>
+    <header>
+<img src="chanel.jpg" alt="Logo"/>
+<h1>chanel logo</h1>
+</header>
+<nav class="sidebar" id="sidebar">
+<ul class="happy">
+<li><a href="#">home</a></li>
+<li><a href="#">services</a></li>
+<li><a href="#">rooms</a></li>
+<li><a href="#">contact </a></li>
+
+
+
+        <h1>Jenny's Website</h1>
+    </header>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Introduction</h2>
+                <p>This is a sample website styled using external CSS.</p>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>
